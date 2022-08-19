@@ -1,4 +1,3 @@
-
 .cart {}
 
 .cart__container {}
@@ -10,7 +9,6 @@
     align-items: center;
     justify-content: space-between;
     height: 150px;
-
     margin: 40px 0;
 }
 
@@ -76,4 +74,15 @@
 
 .product__delete {
     margin-right: 30px;
+}
+
+.cart__total-sum {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: left;
 }

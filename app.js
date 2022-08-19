@@ -32,22 +32,22 @@ let cartItems = [
         article: '4',
     },
     {
-        title: 'Мышь A4TECH Bloody V3, игровая, оптическая, проводная, USB, черный',
-        price: 960,
-        img: 'image_4',
-        article: '4',
+        title: 'Умная колонка ЯНДЕКС c голосовым помощником Алисой, серебристый',
+        price: 2750,
+        img: 'image_5',
+        article: '5',
     },
     {
-        title: 'Мышь A4TECH Bloody V3, игровая, оптическая, проводная, USB, черный',
-        price: 960,
-        img: 'image_4',
-        article: '4',
+        title: 'Кофемашина PHILIPS EP1224/00, серый/черный',
+        price: 29990,
+        img: 'image_6',
+        article: '6',
     },
     {
-        title: 'Фитнес-трекер HONOR Band 5 CRS-B19S, 095,розовый',
-        price: 2390,
-        img: 'image_3',
-        article: '3',
+        title: 'Экшн-камера DIGMA DiCam 310 4K, WiFi, черный',
+        price: 2290,
+        img: 'image_7',
+        article: '7',
     }
 ]
 
@@ -112,6 +112,7 @@ function addToCart(e) {
         price: currentCard.price,
         img: currentCard.img,
         article: currentCard.article,
+        count: 1
     }
     cart.push(cartItem)
     renderCartCount()
